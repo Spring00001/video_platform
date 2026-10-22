@@ -9,7 +9,8 @@
 // 写代码
 </script>
 
-<style>
+<!-- 如果用style scoped,那么里面所有的样式只会对当前组件生效 -->
+<style scoped>
 /* 样式代码 */
   h1 {
     color: red;

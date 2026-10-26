@@ -1,20 +1,20 @@
-/* ------- 1、统一模型，防止内容把网页撑破，空出内边距 ------- */
+/*  1、统一模型，防止内容把网页撑破，空出内边距  */
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ------- 2、设置网页的基础页面样式 ------- */
+/*  2、设置网页的基础页面样式  */
 body {
-  background-color: #f5f5f5;    /* 真实开发很少用纯白，一般用这种带点灰的“高级白” */
-  color: #333;     /* 字体颜色用深灰，比纯黑看着不刺眼 */
-  font-family: Arial, sans-serif;     /* 系统默认最好看的字体 */
-  line-height: 1.5;     /* 行高，1.5倍行距最舒服 */
-  -webkit-font-smoothing: antialiased;     /* antialiased：抗锯齿，意思是让字体在屏幕上更平滑 */
+  background-color: #f5f5f5;    
+  color: #333;     
+  font-family: Arial, sans-serif;     /* 设置默认字体 */
+  line-height: 1.5;     /* 行高 */
+  -webkit-font-smoothing: antialiased;     /* antialiased：抗锯齿，让字体在屏幕上更平滑 */
 }
 
-/* ------- 3、设置图片和视频的最大宽度，防止内容撑破网页 ------- */
+/*  3、设置图片和视频的最大宽度，防止内容撑破网页  */
 img, video {
   max-width: 100%;
   display: block;
